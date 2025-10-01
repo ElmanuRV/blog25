@@ -6,15 +6,10 @@
           ,maximun-scale="1.0",minimun-scale="1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Inicio</title>
+    <title>Blog</title>
 </head>
 <body>
-<ul>
-    <li><a href="/">home</a></li>
-    <li><a href="/blog">Blog</a></li>
-    <li><a href="/about">Sobre nosotros</a></li>
-    <li><a href="/contact">Contacto</a></li>
-</ul>
-<h1>Inicio</h1>
+<h1>Blog</h1>
 </body>
 </html>
+<?php
