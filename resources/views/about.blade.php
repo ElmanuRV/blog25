@@ -9,6 +9,7 @@
     <title>Sobre nosotros</title>
 </head>
 <body>
+@include('partials.navigation')
 <h1>Sobre nosotros</h1>
 </body>
 </html>
