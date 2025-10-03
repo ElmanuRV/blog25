@@ -1,15 +1,9 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"
-          ,maximun-scale="1.0",minimun-scale="1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<x-layout metaTitle="Inicio">
+    <h1>Inicio</h1>
 
-    <title>Inicio</title>
-</head>
-<body>
-@include('partials.navigation')
-<h1>Inicio</h1>
-</body>
-</html>
+    <x-slot:sidebar>
+        <h2>home Sidebar</h2>
+    </x-slot:sidebar>
+
+</x-layout>
+

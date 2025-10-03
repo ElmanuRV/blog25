@@ -1,17 +1,8 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"
-          ,maximun-scale="1.0",minimun-scale="1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<x-layout metaTitle="Inicio">
+    <h1>Blog</h1>
 
-    <title>Blog</title>
-</head>
-<body>
-@include('partials.navigation')
+    <x-slot:sidebar>
+        <h2>home Sidebar</h2>
+    </x-slot:sidebar>
 
-<h1>Blog</h1>
-</body>
-</html>
-<?php
+</x-layout>
