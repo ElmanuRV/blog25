@@ -1,8 +1,6 @@
-<x-layout metaTitle="Inicio">
+<x-layout metaTitle="Blog" metaDescription="Blog">
     <h1>Blog</h1>
-
-    <x-slot:sidebar>
-        <h2>home Sidebar</h2>
-    </x-slot:sidebar>
-
+    @foreach ($posts as $post)
+        <h2>{{ $post['title'] }}</h2>
+@endforeach
 </x-layout>
