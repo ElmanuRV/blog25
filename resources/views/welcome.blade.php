@@ -1,9 +1,6 @@
-<x-layout metaTitle="Inicio">
+<x-layout meta-title="Inicio" meta-description="Descripción de la página de inicio">
     <h1>Inicio</h1>
-
     <x-slot:sidebar>
-        <h2>home Sidebar</h2>
+        <p>Home Sidebar</p>
     </x-slot:sidebar>
-
 </x-layout>
-

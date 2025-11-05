@@ -1,8 +1,3 @@
-<x-layout metaTitle="Inicio">
+<x-layout meta-title="Contacto" meta-description="Descripción de la página de Contacto">
     <h1>Contacto</h1>
-
-    <x-slot:sidebar>
-        <h2>home Sidebar</h2>
-    </x-slot:sidebar>
-
 </x-layout>
